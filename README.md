@@ -21,309 +21,59 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-import pandas as pd
+<img width="1786" height="765" alt="image" src="https://github.com/user-attachments/assets/fe57887b-f5af-4b35-9dd5-1434cd75d852" />
 
-data=pd.read_csv(r"C:\Users\MIRDULA\Downloads\Data_set (1).csv")
+<img width="1784" height="765" alt="image" src="https://github.com/user-attachments/assets/c84532a8-ec0d-4b9e-bd8a-b63db411da01" />
 
-print(data)
+<img width="1779" height="479" alt="image" src="https://github.com/user-attachments/assets/0243b718-fd52-4ecb-93da-abd140a00ab8" />
 
-<img width="815" height="826" alt="image" src="https://github.com/user-attachments/assets/644ec88e-42f8-434e-a1e7-b1d6d4e709ca" />
+<img width="1826" height="429" alt="image" src="https://github.com/user-attachments/assets/6adf17ef-c6a7-4bed-a39f-1864d5c714d9" />
 
+<img width="1784" height="642" alt="image" src="https://github.com/user-attachments/assets/36c5d5f3-5c8f-411e-8b3f-9c56ae735ffd" />
 
+<img width="1828" height="109" alt="image" src="https://github.com/user-attachments/assets/dced1fdb-c53d-4fe5-9047-6124ba110011" />
 
-df.describe()
+<img width="1807" height="280" alt="image" src="https://github.com/user-attachments/assets/bd3725ac-5a63-4228-8431-9337fb49f260" />
 
-<img width="824" height="368" alt="image" src="https://github.com/user-attachments/assets/1874b7c5-be89-4ee1-9a6a-0d22c9b2a7bb" />
+<img width="1804" height="233" alt="image" src="https://github.com/user-attachments/assets/97dea20e-70e8-4525-935b-4f9975dcb7ca" />
 
+<img width="1824" height="231" alt="image" src="https://github.com/user-attachments/assets/ce58d931-bb4b-4a1f-91de-6bfc2beee22c" />
 
+<img width="1813" height="749" alt="image" src="https://github.com/user-attachments/assets/de99ee25-d5b0-40ea-8324-516d2029ee90" />
 
+<img width="1824" height="426" alt="image" src="https://github.com/user-attachments/assets/6ec5bf99-664a-434a-a981-15c5dfcfccfb" />
 
-df=pd.DataFrame(data)
+<img width="1801" height="627" alt="image" src="https://github.com/user-attachments/assets/1068d6b4-732a-48b8-86a9-1b13188769de" />
 
-print(df.isnull())
+<img width="1818" height="285" alt="image" src="https://github.com/user-attachments/assets/16ebb575-71d3-4bb0-b9be-3adb91a1c35c" />
 
-<img width="685" height="569" alt="image" src="https://github.com/user-attachments/assets/27591f3f-f43b-4f4d-bbfc-33802b0671be" />
+<img width="1813" height="630" alt="image" src="https://github.com/user-attachments/assets/3e97576a-9eca-4889-8ca6-10bab705f746" />
 
+<img width="1812" height="280" alt="image" src="https://github.com/user-attachments/assets/074b7c50-4fb5-482f-9958-ff60b85963f5" />
 
+<img width="1823" height="649" alt="image" src="https://github.com/user-attachments/assets/549270b5-c280-4228-ad59-61aa924a3137" />
 
+<img width="1801" height="652" alt="image" src="https://github.com/user-attachments/assets/bef5f405-bb3c-4efd-9ccd-c7d37ef251ae" />
 
-df=pd.DataFrame(data)
+<img width="1820" height="290" alt="image" src="https://github.com/user-attachments/assets/b0304948-2a17-4604-a8de-6cbb0d1bb009" />
 
-print(df.isnull().sum())
+<img width="1810" height="634" alt="image" src="https://github.com/user-attachments/assets/a854552d-b2d3-42a4-a65d-a511e2a1b241" />
 
-<img width="300" height="225" alt="image" src="https://github.com/user-attachments/assets/47bd73da-7cdc-430b-8f2f-e733a72af16f" />
+<img width="1800" height="757" alt="image" src="https://github.com/user-attachments/assets/a32d40e7-0eda-4377-ae39-dd7c608088cb" />
 
+<img width="1789" height="731" alt="image" src="https://github.com/user-attachments/assets/e22a716e-51c3-4c10-9bb4-8646a982e4ab" />
 
+<img width="1793" height="745" alt="image" src="https://github.com/user-attachments/assets/0db94b90-847b-499d-a618-390c7534f926" />
 
+<img width="1821" height="759" alt="image" src="https://github.com/user-attachments/assets/de19c52d-7a0b-45e2-82ab-e35fecc028f9" />
 
-df.info()
+<img width="1819" height="639" alt="image" src="https://github.com/user-attachments/assets/299396b6-e3f8-4dd7-bf22-545900eebab6" />
 
+<img width="1810" height="633" alt="image" src="https://github.com/user-attachments/assets/e8a56c33-089a-4b2d-84fb-2ca0680faf06" />
 
-<img width="404" height="272" alt="image" src="https://github.com/user-attachments/assets/57281b00-53f3-4b73-8b6e-5ae2170d7549" />
+<img width="1811" height="758" alt="image" src="https://github.com/user-attachments/assets/0b3a29a4-f8fd-4f41-bebb-ed8974b88155" />
 
-
-
-
-import pandas as pd
-
-data=pd.read_csv(r"C:\Users\MIRDULA\Downloads\Data_set (1).csv")
-
-df=pd.DataFrame(data) 
-
-dfd=df.dropna()
-
-print("AFTER DROPNA")
-
-print(dfd)
-
-<img width="670" height="875" alt="image" src="https://github.com/user-attachments/assets/f130262d-e16d-4a35-b58b-04fcc5592e64" />
-
-
-
-
-dfd=df.dropna(axis=1)
-
-print("AFTER DROPNA")
-
-print(dfd)
-
-<img width="526" height="316" alt="image" src="https://github.com/user-attachments/assets/add21e6e-edac-4fe6-8155-5860f77b9b8b" />
-
-
-
-
-dfd=df.dropna(axis=1,inplace=True)
-
-print("AFTER DROPNA")
-
-print(dfd)
-
-<img width="508" height="44" alt="image" src="https://github.com/user-attachments/assets/9bb5f94a-b926-48a9-9b81-f54c1990d5d9" />
-
-
-
-
-df=pd.DataFrame(data) 
-
-df1=df.iloc[[1,3,5],[1,3]]
-
-print(df1)
-
-<img width="423" height="92" alt="image" src="https://github.com/user-attachments/assets/fe6806ef-995e-4b8b-af5b-37a0a3617496" />
-
-
-
-
-dfd=df.dropna(axis=0)
-
-print("AFTER DROPNA")
-
-print(dfd)
-
-<img width="660" height="324" alt="image" src="https://github.com/user-attachments/assets/4b403861-169c-4cc8-af34-aced8981acac" />
-
-
-
-
-df=pd.DataFrame(data)
-
-print(df.isnull().any())
-
-<img width="343" height="213" alt="image" src="https://github.com/user-attachments/assets/2c513d3e-ffb1-4a9c-b8b9-9d5328d26a3e" />
-
-
-
-
-dfd=df.fillna(0)
-
-print("AFTER FILLNA")
-
-print(dfd)
-
-<img width="751" height="862" alt="image" src="https://github.com/user-attachments/assets/8f791821-8b2a-4090-908a-088ac60f19c6" />
-
-
-
-
-dfd=df.fillna(method="ffill")
-
-print("AFTER FILLNA")
-
-print(dfd)
-
-<img width="736" height="866" alt="image" src="https://github.com/user-attachments/assets/157897ee-e74e-4ce3-a0b9-4d12406fd09c" />
-
-
-
-
-dfd=df.fillna(method="bfill")
-
-print("AFTER FILLNA")
-
-print(dfd)
-
-<img width="738" height="866" alt="image" src="https://github.com/user-attachments/assets/15c45c2c-de2d-46b7-87c6-8cd8db916536" />
-
-
-
-
-dfd=df.fillna({'show_name':'nandy','aired_on':'wednesday','original_network':'Jio','rating':7.5})
-
-print("AFTER FILLNA")
-
-print(dfd)
-
-<img width="794" height="876" alt="image" src="https://github.com/user-attachments/assets/07337b90-46f2-4a89-a4a1-745ee47d2251" />
-
-
-
-
-
-
-import pandas as pd
-
-import matplotlib.pyplot as plt
-
-import numpy as np
-
-data=pd.read_csv("iris.csv")
-
-df=pd.DataFrame(data)
-
-print(df)
-
-x=df["petal_length"]
-
-y=df["sepal_length"]
-
-plt.bar(x,y)
-
-plt.show()
-
-
-<img width="691" height="811" alt="image" src="https://github.com/user-attachments/assets/4ad04cc5-dd24-4eca-835d-1901732868f0" />
-
-
-
-
-import pandas as pd
-
-import matplotlib.pyplot as plt
-
-import numpy as np
-
-data=pd.read_csv("iris.csv")
-
-df=pd.DataFrame(data)
-
-print(df)
-
-x=df["petal_length"]
-
-y=df["sepal_length"]
-
-plt.xlabel('X-axis')
-
-plt.ylabel('Y-axis')
-
-plt.plot(x,y)
-
-plt.show()
-
-
-<img width="754" height="831" alt="image" src="https://github.com/user-attachments/assets/ffac437a-b692-4a97-abe2-b98cafb606b6" />
-
-
-
-plt.scatter(x,y)
-
-plt.show()
-
-
-<img width="730" height="516" alt="image" src="https://github.com/user-attachments/assets/2212ec26-9f62-408d-ae3b-3ee04ec0cc90" />
-
-
-
-import pandas as pd
-
-import matplotlib.pyplot as plt
-
-import numpy as np
-
-data=pd.read_csv("iris.csv")
-
-df=pd.DataFrame(data)
-
-print(df)
-
-dff=plt.boxplot(x="petal_width",data=df)
-
-print(dff)
-
-
-
-<img width="1353" height="892" alt="image" src="https://github.com/user-attachments/assets/0482d8b1-87d1-4e52-a86c-16e8d31d6f5f" />
-
-
-
-
-import pandas as pd 
-
-import numpy as np
-
-from scipy import stats
-
-data=pd.read_csv("iris.csv")
-
-df=pd.DataFrame(data)
-
-z_scores = np.abs(stats.zscore(df.select_dtypes(include=[np.number])))
-
-df_cleaned = df[(z_scores < 3).all(axis=1)] 
-
-df_cleaned
-
-
-<img width="569" height="513" alt="image" src="https://github.com/user-attachments/assets/d7bf2d87-6526-4a2d-9f8c-f03e6aa8d34a" />
-
-
-
-import pandas as pd 
-
-import numpy as np
-
-data_set = pd.read_csv("iris.csv")
-
-df = pd.DataFrame(data_set)
-
-Q1 = df["sepal_width"].quantile(0.25)
-
-Q3 = df["sepal_width"].quantile(0.75)
-
-IQR = Q3 - Q1
-
-lower_bound = Q1 - 1.5 * IQR
-
-upper_bound = Q3 + 1.5 * IQR
-
-print("The Orginal DataSet")
-
-print(df)
-
-outliers = df[(df['sepal_width'] < lower_bound) | (df['sepal_width'] > upper_bound)]
-
-print("The Outliers")
-
-print(outliers)
-
-df_clean = df[(df['sepal_width'] >= lower_bound) & (df['sepal_width'] <= upper_bound)]
-
-print("The Dataset after removing the outliers")
-
-print(df_clean)
-
-<img width="653" height="771" alt="image" src="https://github.com/user-attachments/assets/5b308725-ab5f-43ec-8e00-693529b0c40e" />
-
+<img width="1820" height="464" alt="image" src="https://github.com/user-attachments/assets/6fda463f-4d93-4ba7-86ec-12adea8e7547" />
 
 # Result
-THUS DATA CLEANING IS PERFORMED
+      The given dataset was successfully read, cleaned, and saved to a new file.
